@@ -1,20 +1,62 @@
 project:
   type: website
+  output-dir: _site
+  preview:
+    port: 7777
+    browser: true
 
+execute: 
+  freeze: auto
+    
 website:
-  title: "tidyplots"
+  title: "Data Visualization using tidyplots"
+  site-url: "https://tidyplots.netlify.app"
+  repo-url: "https://github.com/arvondvenkatadri/tidyplots"
+  description: "This is Arvind V.'s website teaching Data Visualization to Art and Design Students in R, using the tidyplots approach."
+  
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-
+      
+    right:
+      - icon: github
+        href: https://github.com/arvindvenkatadri/tidyplots
+      - icon: twitter
+        href: https://twitter.com/arvind_v
+      - icon: linkedin
+        href: https://www.linkedin.com/in/arvindvenkatadri
+      - icon: envelope
+        href: mailto:arvind.venkatadri@gmail.com
+  
+  sidebar:
+    style: "docked"
+    background: secondary
+    alignment: left
+    collapse-level: 2
+    search: true
+    logo: ""
+    contents:
+      - section: "Tidy Plots with tidyplots"
+        href : content/tidyplots/listing.qmd
+        contents: 
+          - content/tidyplots/Modules/10-Input/index.qmd
+          - content/tidyplots/Modules/20-Look/index.qmd
+          - content/tidyplots/Modules/30-Clean/index.qmd
+          - content/tidyplots/Modules/40-Summarize/index.qmd
+          - content/tidyplots/Modules/50-Count/index.qmd
+          - content/tidyplots/Modules/60-Spread/index.qmd
+          - content/tidyplots/Modules/70-Group/index.qmd
+          - content/tidyplots/Modules/80-Link/index.qmd
+            
 format:
   html:
     theme:
-      - cosmo
+      - united
       - brand
-    css: styles.css
+    css: 
+      - extras/css/styles.css
+      - extras/css/brite.scss
     toc: true
 
 

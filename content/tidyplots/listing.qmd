@@ -1,0 +1,16 @@
+---
+title: "Tidy Plots with tidyplots"
+date: 03/Oct/2025
+listing: 
+  type: table
+  sort: "order"
+  sort-ui: false
+  filter-ui: false
+  contents: 
+    - "Modules/*/index.qmd"
+  fields: [image, title, subtitle, date]
+  table-striped: true
+  table-hover: true
+  categories: true
+---
+

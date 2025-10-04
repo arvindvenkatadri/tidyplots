@@ -1,0 +1,14 @@
+[
+  {
+    "listing": "/content/tidyplots/listing.html",
+    "items": [
+      "/content/tidyplots/Modules/10-Input/index.html",
+      "/content/tidyplots/Modules/20-Look/index.html",
+      "/content/tidyplots/Modules/30-Clean/index.html",
+      "/content/tidyplots/Modules/40-Summarize/index.html",
+      "/content/tidyplots/Modules/50-Count/index.html",
+      "/content/tidyplots/Modules/60-Spread/index.html",
+      "/content/tidyplots/Modules/70-Group/index.html"
+    ]
+  }
+]

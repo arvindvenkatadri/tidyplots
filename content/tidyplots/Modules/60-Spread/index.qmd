@@ -1,0 +1,11 @@
+---
+title: "Spread"
+order: 60
+---
+
+## Data Import
+
+We will look at reading in data files of various types into our session in R. 
+
+
+{{< revealjs ./files/spread.html height="500px" class="ratio ratio-16x9" >}}
